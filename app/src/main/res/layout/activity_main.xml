@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nomeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:text="Nome:">
+    </TextView>
+
+    <TextView
+        android:id="@+id/phonePrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:text="Telefone:">
+    </TextView>
+
+    <EditText
+        android:id="@+id/nomeEdit"
+        android:layout_width="30mm"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome"
+        android:inputType="text"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/phoneEdit"
+        android:layout_width="30mm"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu telefone"
+        android:inputType="text"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Enviar"
+        android:textColor="#f2f2f2" />
+
+
+</LinearLayout>
+
